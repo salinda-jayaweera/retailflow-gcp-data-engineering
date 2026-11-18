@@ -221,3 +221,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Google Cloud credentials
+*service-account*.json
+*service_account*.json
+*credentials*.json
+*.pem
+*.p12
+*.key
+
+# Private and raw datasets
+data/raw/
+data/private/
+
+# Local editor files
+.vscode/
